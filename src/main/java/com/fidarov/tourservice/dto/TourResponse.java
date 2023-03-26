@@ -2,7 +2,6 @@ package com.fidarov.tourservice.dto;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
-
 import java.math.BigDecimal;
 
 @Data
