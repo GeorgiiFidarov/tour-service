@@ -12,7 +12,6 @@ import java.util.List;
 @RequestMapping("/api/tour")
 @RequiredArgsConstructor
 public class TourController {
-
     private final TourService tourService;
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
